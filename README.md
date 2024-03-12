@@ -27,7 +27,7 @@ MySQL | PostgreSQL | Rdis | DynamoDB | MongoDB
 ### AWS
 VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering
 
-### GCP
+### Google Cloud
 Firebase(Firestore|Firebase Authentication)
 
 ### SaaS/PaaS

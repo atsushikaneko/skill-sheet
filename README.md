@@ -16,26 +16,25 @@
 基本的にすべて実業務で使用した技術だけを列挙しています。
 
 ### 言語
-Ruby | Python | JavaScript | TypeScript | Google Apps Script
+Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
 
 ### フレームワーク等
-Ruby on Rails | Next.js | jQuery
+Ruby on Rails | Express.js | Next.js | jQuery
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Rdis | DynamoDB | MongoDB
 
-### クラウド
-AWS
-VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | Elasticsearch Service | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | Kinesis | SNS | SES | Redshift | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering
+### AWS
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering
 
 ### GCP
-Firebase(Firestore | Firebase Authentication)
+Firebase(Firestore|Firebase Authentication)
 
 ### SaaS/PaaS
-GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog
+GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
 
 ### その他
-Docker | Docker-Compose | Redash
+Docker | Docker-Compose | Vagrant | Redash
 
 ## 主な業務経歴
 

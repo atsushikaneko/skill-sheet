@@ -29,13 +29,13 @@ AWS
 VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | Elasticsearch Service | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | Kinesis | SNS | SES | Redshift | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering
 
 ### GCP
-Firebase(Firestore|Firebase Authentication)
+Firebase(Firestore | Firebase Authentication)
 
 ### SaaS/PaaS
-GitHub | GitHub Actions | BitBucket(Stash) | CircleCI | Datadog | Sentry | NewRelic
+GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog
 
 ### その他
-Docker | Docker-Compose
+Docker | Docker-Compose | Redash
 
 ## 主な業務経歴
 

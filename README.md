@@ -19,7 +19,7 @@
 Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
 
 ### フレームワーク等
-Ruby on Rails | Express.js | Next.js | jQuery
+Ruby on Rails | Express.js | Next.js | jQuery | Serverless Framework
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Rdis | DynamoDB | MongoDB

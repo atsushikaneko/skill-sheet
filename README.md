@@ -1,5 +1,35 @@
+# 概要
 
+- 携わる企業様のビジネスとしての成功を常に第一目標としています。
+- エンジニアとして、フロントエンド、バックエンド、インフラと全般的な業務に携わっています。
+システム全体を総合的に俯瞰し、さらにビジネス的な観点も考慮しつつ最適な問題解決を常に追い求めています。
+また、品質（パフォーマンス、保守性etc）を重視しつつも、開発スピードが疎かにならないように常に心がけています。
 
+# スキル
+
+基本的にすべて実業務で使用した技術だけを列挙しています。
+
+言語
+Ruby | Python | JavaScript | TypeScript | Google Apps Script
+
+フレームワーク等
+Ruby on Rails | Next.js | jQuery
+
+RDB/NoSQL
+MySQL | PostgreSQL | Rdis | DynamoDB | MongoDB
+
+クラウド
+AWS
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | Elasticsearch Service | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | Kinesis | SNS | SES | Redshift | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering
+
+GCP
+Firebase(Firestore|Firebase Authentication)
+
+SaaS/PaaS
+GitHub | GitHub Actions | BitBucket(Stash) | CircleCI | Datadog | Sentry | NewRelic
+
+その他
+Docker | Docker-Compose
 
 # 主な業務経歴
 

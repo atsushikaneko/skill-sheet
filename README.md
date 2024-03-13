@@ -22,7 +22,7 @@ Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
 Ruby on Rails | Express.js | Next.js | jQuery | Serverless Framework
 
 ### RDB/NoSQL
-MySQL | PostgreSQL | Rdis | DynamoDB | MongoDB
+MySQL | PostgreSQL | Redis | DynamoDB | MongoDB
 
 ### AWS
 VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering

@@ -31,7 +31,7 @@ VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route
 Firebase(Firestore|Firebase Authentication)
 
 ### SaaS/PaaS
-GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
+Heroku | GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
 
 ### その他
 Docker | Docker-Compose | Vagrant | Redash

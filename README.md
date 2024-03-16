@@ -25,7 +25,7 @@ Ruby on Rails | Express.js | React | Next.js | jQuery | Serverless Framework
 MySQL | PostgreSQL | Redis | DynamoDB | MongoDB
 
 ### AWS
-VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering | CodePipeline | CodeBuild | CodeCommit
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering | CodePipeline | CodeBuild | CodeCommit | ECR
 
 ### Google Cloud
 Firebase(Firestore|Firebase Authentication)
@@ -47,13 +47,12 @@ Docker | Docker-Compose | Vagrant | Redash | Terraform
 
 ## 単発アルバイトマッチングサービスの開発・保守
 
-
 ### 期間・規模
 2022/1~現在
 PO1名、開発メンバー1-5名、デザイナー1名
 
 
-### 主要実績
+### 担当業務
 
 HerokuからAWSへの全インフラの移行
 
@@ -135,7 +134,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
    - 本番環境とStaging環境を同じアカウント内に作成してしまったので、本番環境だけでいくらかかっているかを確認するのに手間がかかってしまう。なのでアカウントを分けるべきだったと思っています。(アカウント自体を分けることで各環境のコストが明確になり、管理がしやすくなるメリットがあります。)
 
 
-### その他実績
+### その他の担当業務
 
 以下長くなりますが、本プロジェクトにおけるその他の実績になります。
 
@@ -204,7 +203,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 全体で開発80名以上
 私が属していたチームは4名
 
-### 実績
+### 担当業務
 
 - 金融機関のWebサイトをクローリングし利用明細データをインポートする機能の調査・実装
   - 大手のクラウド会計サービスだったため、すでに数百を超える金融機関からデータをインポートする機能が存在しており、私が担当したのは新しい金融機関の追加でした。
@@ -229,7 +228,9 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 PO １名
 開発20名以上
 
-### 実績
+### 担当業務
 
-バッチ処理
-テスト
+- APIの開発
+- ECモールから在庫データをインポートする機能の開発
+- ECモールに商品を出品する機能の開発
+- 手動E2Eテスト

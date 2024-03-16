@@ -19,13 +19,13 @@
 Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
 
 ### フレームワーク等
-Ruby on Rails | Express.js | Next.js | jQuery | Serverless Framework
+Ruby on Rails | Express.js | React | Next.js | jQuery | Serverless Framework
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Redis | DynamoDB | MongoDB
 
 ### AWS
-VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering | CodePipeline | CodeBuild | CodeCommit
 
 ### Google Cloud
 Firebase(Firestore|Firebase Authentication)
@@ -34,7 +34,7 @@ Firebase(Firestore|Firebase Authentication)
 Heroku | GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
 
 ### その他
-Docker | Docker-Compose | Vagrant | Redash
+Docker | Docker-Compose | Vagrant | Redash | Terraform
 
 ## 主な業務経歴
 
@@ -211,11 +211,25 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
   - 担当した金融機関は某クレジットカード会社で、APIが提供されていなかったためクローリングでデータを取得する機能を作成しました。
   - 金融機関のWebサイト上で、クラウド会計サービスで必要な数十種類のデータがどのページの、どの部分に存在するか調査しマッピング表を作成しました。
   - 他の金融機関のインポート機能を参考に機能の実装、自動テストの実装、Staging環境での動作確認、リリースを行いました。
+    - 比較的大規模なシステムだったため、
 - 金融機関のAPIから利用明細データをインポートする機能の調査・実装
   - APIが提供されている金融機関の場合は、クローリングではなくAPIで利用明細データをインポートしました。
   - 基本的な流れはクローリングの場合と同様です。API仕様書を確認しながら、クラウド会計ソフトで必要なデータとAPIのレスポンスデータをマッピングする表を作成し、実装を行いました。
 - 各種テクニカルサポート
   - 金融機関からデータが正しくデータが取得できない等の問い合わせに対して調査を行い原因の特定し、ソースコードの修正等を行いました。
 
+---
 
+## 複数ECモール一元管理システム（SaaS）の開発
 
+### 期間・規模
+
+2020/2 - 2021/1
+
+PO １名
+開発20名以上
+
+### 実績
+
+バッチ処理
+テスト

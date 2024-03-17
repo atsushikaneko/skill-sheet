@@ -28,10 +28,10 @@ MySQL | PostgreSQL | Redis | DynamoDB | MongoDB
 VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering | CodePipeline | CodeBuild | CodeCommit | ECR
 
 ### Google Cloud
-Firebase(Firestore|Firebase Authentication)
+Firebase(Firestore|Firebase Authentication|CloudFunctions)
 
 ### SaaS/PaaS
-Heroku | GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
+Heroku | Vercel | GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
 
 ### その他
 Docker | Docker-Compose | Vagrant | Redash | Terraform

@@ -13,7 +13,7 @@
   
 ## スキル
 
-基本的にすべて実業務で使用した技術だけを列挙しています。
+すべて実業務で使用した技術だけを列挙しています。
 
 ### 言語
 Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
@@ -22,7 +22,7 @@ Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
 Ruby on Rails | Express.js | React | Next.js | jQuery | Serverless Framework
 
 ### RDB/NoSQL
-MySQL | PostgreSQL | Redis | DynamoDB | MongoDB
+MySQL | PostgreSQL | Redis | DynamoDB | MongoDB | Firestore
 
 ### AWS
 VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Cognito | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SNS | SES | CloudWatch | EventBridge | CloudTrail  | KMS | Parameter Store | Client VPN | VPC Peering | CodePipeline | CodeBuild | CodeCommit | ECR

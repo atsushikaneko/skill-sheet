@@ -18,8 +18,11 @@
 ### 言語
 Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
 
-### フレームワーク等
-Ruby on Rails | Express.js | React | Next.js | jQuery | Serverless Framework
+### フレームワーク
+Ruby on Rails | Express.js | Next.js | jQuery | Serverless Framework
+
+### ライブラリ
+React | Apollo Client | Graphql-ruby | Selenium
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Redis | DynamoDB | MongoDB | Firestore
@@ -34,7 +37,7 @@ Firebase(Firestore|Firebase Authentication|CloudFunctions)
 Heroku | Vercel | GitHub | GitHub Actions | CircleCI | BugSnag | Sentry | Rollbar | NewRelic | Datadog | Pingdom
 
 ### その他
-Docker | Docker-Compose | Vagrant | Redash | Terraform
+Docker | Docker-Compose | Vagrant | Redash | Terraform | Ansible
 
 ## 主な業務経歴
 

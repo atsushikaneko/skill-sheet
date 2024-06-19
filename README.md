@@ -42,8 +42,8 @@ Docker | Docker-Compose | Vagrant | Redash | Terraform | Ansible
 
 ## 資格
 
-2022年11月: AWS Certified Solutions Architect – Associate
-2024年6月:  AWS Certified Solutions Architect - Professional
+- 2022年11月: AWS Certified Solutions Architect – Associate
+- 2024年6月:  AWS Certified Solutions Architect - Professional
 
 
 

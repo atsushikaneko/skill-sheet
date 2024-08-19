@@ -19,10 +19,10 @@
 Ruby | Node.js | Python | PHP | JavaScript | TypeScript | Google Apps Script
 
 ### フレームワーク
-Ruby on Rails | Express.js | CodeIgniter | Next.js | jQuery | Serverless Framework
+Ruby on Rails | Express.js | CodeIgniter | Next.js | Serverless Framework
 
 ### ライブラリ
-React | Apollo Client | Graphql-ruby | Selenium
+React | Apollo Client | Graphql-ruby | Selenium | jQuery
 
 ### RDB/NoSQL
 MySQL | PostgreSQL | Redis | DynamoDB | MongoDB | Firestore

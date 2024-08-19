@@ -16,10 +16,10 @@
 すべて実業務で使用した技術だけを列挙しています。
 
 ### 言語
-Ruby | Node.js | Python | JavaScript | TypeScript | Google Apps Script
+Ruby | Node.js | Python | PHP | JavaScript | TypeScript | Google Apps Script
 
 ### フレームワーク
-Ruby on Rails | Express.js | Next.js | jQuery | Serverless Framework
+Ruby on Rails | Express.js | CodeIgniter | Next.js | jQuery | Serverless Framework
 
 ### ライブラリ
 React | Apollo Client | Graphql-ruby | Selenium

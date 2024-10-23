@@ -221,7 +221,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 
 ### 担当業務
 
-- Github Actionを使用した、DUSK E2EテストのCIパイプライン実装
+- Github Actionsを使用した、DUSK E2EテストのCIパイプライン実装
 - GitHub Actionsを使用した、PHPStan静的解析のCIパイプライン構築
 - AWS CodePipelineのECSデプロイアクションがランダムで失敗する問題の解消
 - 本番DBのRDS移行(EC2で動かしているMySQLのRDSへ移行)
@@ -231,7 +231,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
   - EBSを最適なサイズに入れ替え
   - 2024/2/1より有料化したパブリックipv4の対応: 各種EC2にパブリックipv4を付与しないように設定変更し、プライベートサブネットに移行
   - 使用していないリソースの削除（EC2, NATゲートウェイ, VPCエンドポイント等）の削除
-- Github Actionを使用した、マイクロサービスのCDパイプライン構築
+- Github Actionsを使用した、マイクロサービスのCDパイプライン構築
 - 運用上重要なアラートをslackに通知する仕組みの導入
 
 ---

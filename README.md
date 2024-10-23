@@ -52,8 +52,8 @@ Docker | Docker-Compose | Vagrant | Redash | Terraform | Ansible
 
 
 - [単発アルバイトマッチングサービスの開発・保守(2022/1~現在)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E5%8D%98%E7%99%BA%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
-- [クラウド会計サービスの開発・保守(2021/8 - 2021/12)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E4%BC%9A%E8%A8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
-- [大手教育系BtoCサービスの開発・保守(2021/2 - 2021/5)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E5%A4%A7%E6%89%8B%E6%95%99%E8%82%B2%E7%B3%BBbtoc%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
+- [クラウド会計サービスの開発・保守(2021/7 - 2021/12)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E4%BC%9A%E8%A8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
+- [大手教育系BtoCサービスの開発・保守(2021/2 - 2021/6)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E5%A4%A7%E6%89%8B%E6%95%99%E8%82%B2%E7%B3%BBbtoc%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
 - [複数ECモール一元管理システム（SaaS）の開発(2020/2 - 2021/1)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E8%A4%87%E6%95%B0ec%E3%83%A2%E3%83%BC%E3%83%AB%E4%B8%80%E5%85%83%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0saas%E3%81%AE%E9%96%8B%E7%99%BA)
 
 
@@ -146,7 +146,9 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
   - 運用体制の整備
     - アーキテクチャの仕様、各種設定、操作手順等を文書化してチーム内で共有しました。加えて、本番環境の移行に先駆けて、Staging環境を1ヶ月前にAWSに移行し、開発チームがAWSの運用に円滑に移行できるよう配慮しました。
 - 反省点
-   - 本番環境とStaging環境を同じアカウント内に作成してしまったので、本番環境だけでいくらかかっているかを確認するのに手間がかかってしまう。なのでアカウントを分けるべきだったと思っています。(アカウント自体を分けることで各環境のコストが明確になり、管理がしやすくなるメリットがあります。)
+   - コスト削減を優先していた関係で、ECSタスクの起動時にVPCエンドポイントを利用せずインターネット経由でECRからdockerイメージをpullしていた。バッチ処理をEventbridgeでスケジューリングしたECSタスク(Fargate)という形で定期実行していたが、1回/10分と高頻度のバッチ処理が存在したため、インターネット経由のDockerイメージの取得に、5,184GB/月（内訳: 0.6GB[イメージサイズ] × 4,320回/月 × 2[本番&ステージング]）
+というデータ転送コストが発生しており、税込みで約6万円/月というコストが発生してしまった。そのため対策として、無料で使えるS3用のゲートウェイ型VPCエンドポイントを設置することで、このコストを解消することができた。（Dockerのイメージレイヤー自体はS3に保管されているためS3用のゲートウェイエンドポイントで解消される。）
+
 
 
 ### その他の担当業務

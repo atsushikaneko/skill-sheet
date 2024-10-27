@@ -52,7 +52,7 @@ Docker | Docker-Compose | Vagrant | Redash | Terraform | Ansible
 
 
 - [単発アルバイトマッチングサービスの開発・保守(2022/1~現在)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E5%8D%98%E7%99%BA%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
-- [専門転職サイトの開発・運営(副業: 2023/6 - 2024/5)](https://github.com/atsushikaneko/skill-sheet/blob/main/README.md#%E5%B0%82%E9%96%80%E8%81%B7%E3%81%AE%E8%BB%A2%E8%81%B7%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E9%81%8B%E5%96%B6%E5%89%AF%E6%A5%AD)
+- [専門転職サイトの開発・運営(副業: 2023/6 - 2024/5)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E5%B0%82%E9%96%80%E8%81%B7%E3%81%AE%E8%BB%A2%E8%81%B7%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E9%81%8B%E5%96%B6%E5%89%AF%E6%A5%AD)
 - [クラウド会計サービスの開発・保守(2021/7 - 2021/12)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E4%BC%9A%E8%A8%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
 - [大手教育系BtoCサービスの開発・保守(2021/2 - 2021/6)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E5%A4%A7%E6%89%8B%E6%95%99%E8%82%B2%E7%B3%BBbtoc%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA%E4%BF%9D%E5%AE%88)
 - [複数ECモール一元管理システム（SaaS）の開発(2020/2 - 2021/1)](https://github.com/atsushikaneko/skill-sheet?tab=readme-ov-file#%E8%A4%87%E6%95%B0ec%E3%83%A2%E3%83%BC%E3%83%AB%E4%B8%80%E5%85%83%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0saas%E3%81%AE%E9%96%8B%E7%99%BA)

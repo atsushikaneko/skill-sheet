@@ -221,12 +221,12 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 
 ### 担当業務
 
-- Github Actionsを使用した、DUSK E2EテストのCIパイプライン実装
+- Github Actionsを使用した、DUSK E2EテストのCIパイプライン構築
 - Github Actionsを使用した、PHPStan静的解析のCIパイプライン構築
 - AWS CodePipelineのECSデプロイアクションがランダムで失敗する問題の解消
-- 本番DBのRDSへの移行(EC2で動かしていたMySQLをRDSへ移行)
-- コスト削減（税込9万円/月程度の削減）
-  - Staging環境では、FargateSpotの使用
+- 本番DBのAWS RDSへの移行(EC2で動かしていたMySQLをAWS RDSへ移行)
+- インフラ関連コスト削減（税込9万円/月程度の削減）
+  - Staging環境では、Fargate Spotの使用
   - EC2やFargateを最適なインスタンスタイプ・スペックに変更
   - EBSを最適なサイズに入れ替え
   - 2024/2/1よりAWSで有料化したパブリックipv4を使わないように構成を変更

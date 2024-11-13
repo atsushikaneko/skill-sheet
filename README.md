@@ -59,7 +59,7 @@ Docker | Docker-Compose | Vagrant | Redash | Terraform | Ansible
 
 
 
-## 単発アルバイトマッチングサービスの開発・保守
+## 単発アルバイトマッチングサービスの開発・保守(2022/1~現在)
 
 ### 期間・規模
 

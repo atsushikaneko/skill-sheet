@@ -65,6 +65,11 @@ Docker | Docker-Compose | Vagrant | Redash | Terraform | Ansible
 
 PO1名、開発メンバー1-5名、デザイナー1名
 
+### 主要な技術
+
+- TypeScript, React, Next.js 
+- Ruby, Rails, Node.js, Express.js
+- AWS(ECS, EC2, ECR, Route53, ALB, S3, Codepipeline, Cloudfront etc), Google Cloud(Firestore, Firebase Authentication), Heroku
 
 ### 担当業務
 

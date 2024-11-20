@@ -221,7 +221,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 ### 主要な技術
 
 - PHP, Laravel, CodeIgniter
-- Oracle Cloud, CloudFlare
+- AWS, Oracle Cloud, CloudFlare
 - GithubActions
 
 ### 期間・規模
@@ -232,6 +232,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 
 - Github Actionsを使用した、DUSK E2EテストのCIパイプライン構築
 - Github Actionsを使用した、PHPStan静的解析のCIパイプライン構築
+- Github Actionsを使用した、マイクロサービスのCDパイプライン構築
 - AWS CodePipelineのECSデプロイアクションがランダムで失敗する問題の解消
 - 本番DBのAWS RDSへの移行(EC2で動かしていたMySQLをAWS RDSへ移行) & それに伴う運用フローの再構築
 - インフラ関連コスト削減（税込9万円/月程度の削減）
@@ -240,7 +241,6 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
   - EBSを最適なサイズに入れ替え
   - 2024/2/1よりAWSで有料化したパブリックipv4を使わないように構成を変更
   - 使用していないリソースの削除（EC2, NATゲートウェイ, VPCエンドポイント等）の削除
-- Github Actionsを使用した、マイクロサービスのCDパイプライン構築
 - 運用上重要なアラートをslackに通知する仕組みの導入
 - エラーモニタリングツール(Rollbar)の導入
 - 外部監視サービス(Pingdom)の導入

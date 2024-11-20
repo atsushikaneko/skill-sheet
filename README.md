@@ -218,6 +218,12 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 ---
 ## 専門職の転職サイトの開発・保守(副業: 2023/6 - 2024/5)
 
+### 主要な技術
+
+- PHP, Laravel, CodeIgniter
+- Oracle Cloud, CloudFlare
+- GithubActions
+
 ### 期間・規模
 
 2023/6 - 2024/5
@@ -227,7 +233,7 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 - Github Actionsを使用した、DUSK E2EテストのCIパイプライン構築
 - Github Actionsを使用した、PHPStan静的解析のCIパイプライン構築
 - AWS CodePipelineのECSデプロイアクションがランダムで失敗する問題の解消
-- 本番DBのAWS RDSへの移行(EC2で動かしていたMySQLをAWS RDSへ移行)
+- 本番DBのAWS RDSへの移行(EC2で動かしていたMySQLをAWS RDSへ移行) & それに伴う運用フローの再構築
 - インフラ関連コスト削減（税込9万円/月程度の削減）
   - Staging環境では、Fargate Spotの使用
   - EC2やFargateを最適なインスタンスタイプ・スペックに変更
@@ -236,10 +242,16 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
   - 使用していないリソースの削除（EC2, NATゲートウェイ, VPCエンドポイント等）の削除
 - Github Actionsを使用した、マイクロサービスのCDパイプライン構築
 - 運用上重要なアラートをslackに通知する仕組みの導入
+- エラーモニタリングツール(Rollbar)の導入
+- 外部監視サービス(Pingdom)の導入
 
 ---
 ## クラウド会計サービスの開発・保守(2021/7 - 2021/12)
 
+### 主要な技術
+
+- Ruby, Selenium
+- AWS
 
 ### 規模
 
@@ -263,6 +275,11 @@ HerokuからAWSへの全インフラの移行を提案し、実施しました�
 ---
 ## 大手教育系BtoCサービスの開発・保守(2021/2 - 2021/6)
 
+### 主要な技術
+
+- Ruby, Rails, GraphQL
+- AWS
+
 ### 規模
 
 PM １名
@@ -276,6 +293,11 @@ PM １名
 ---
 
 ## 複数ECモール一元管理システム（SaaS）の開発(2020/2 - 2021/1)
+
+### 主要な技術
+
+- Ruby, Rails
+- AWS
 
 ### 規模
 
